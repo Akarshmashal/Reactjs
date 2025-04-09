@@ -4,6 +4,7 @@
   "description": "This is reactjs learning",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,13 +18,15 @@
   },
   "homepage": "https://github.com/Akarshmashal/Reactjs#readme",
   "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.14.4"
   },
   "dependencies": {
+    "commander": "^13.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 Chrome versions"
   ]
 }
